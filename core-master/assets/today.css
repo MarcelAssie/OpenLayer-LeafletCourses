@@ -1,0 +1,159 @@
+/* Style global */
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur principal */
+.contenu {
+    padding: 20px;
+    margin: 40px auto;
+    width: 80%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    colror: #555;
+}
+/* Titres */
+h1, h2 {
+    text-align: center;
+    color: #444444;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Date */
+.date {
+    text-align: center;
+    color: #ff5722;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Style du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* En-tête du tableau */
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Cellules */
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Ligne du jour actuel */
+.jour-actuel {
+    font-weight: bold;
+    color: red;
+}
+
+/* Ligne normale au survol */
+tr:hover {
+    background-color: #f1f1f1;
+}
+/* Style général pour le conteneur */
+.player-info, .player-result, .play {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.player-result, .play {
+    display: none;
+}
+.player-info input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.player-result button {
+    margin: auto;
+}
+
+
+.player-result input[type="choice"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: black;
+    auto: margin;
+}
+
+#game {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+#userMessage {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*img{*/
+/*    width: 100px;*/
+/*    height: auto;*/
+/*    border-radius: 3%;*/
+/*    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);*/
+/*}*/
+#app textarea {
+    width: 30%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1.1em;
+}
+.error {
+    background: red;
+}
+
+

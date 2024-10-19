@@ -1,0 +1,27 @@
+#openlayer {
+    height: 800px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid #888;
+}
+
+#results {
+    margin-top: 25px;
+    color: #0e6ec8;
+    margin-bottom: 5px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main h2 {
+    font-size:25px;
+}
+main h2 {
+    font-size:25px;
+}
